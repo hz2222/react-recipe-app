@@ -1,0 +1,17 @@
+.recipe {
+    border-radius: 30px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 40%;
+}
+
+
+p {
+    color: blue;
+    font-size: 20px;
+}
