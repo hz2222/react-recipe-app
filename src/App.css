@@ -13,7 +13,6 @@
 
 .search-bar {
   width: 30%;
-  border: none;
   padding: 10px;
   border-radius: 10px;
 }
@@ -24,6 +23,7 @@
   padding: 10px 20px;
   color: white;
   border-radius: 10px;
+  margin-left: 20px;
 }
 
 .search-button:hover {
@@ -39,4 +39,8 @@
 
 .heading {
   margin-right: 50px;
+}
+
+.nav-bar {
+  background-color: white;
 }

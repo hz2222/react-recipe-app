@@ -34,6 +34,7 @@ function App() {
   
   return (
     <div className="App">
+      <div className="nav-bar" >
       <form className="search-form" onSubmit={getSearch}>
       <h1 className='heading'>Recipe searcher</h1>
         <input className="search-bar" type="text" value={search}
@@ -42,6 +43,7 @@ function App() {
              Search
         </button>
       </form>
+      </div>
       <div className="recipes">
         {recipes.map(recipe => (
           <Recipe
